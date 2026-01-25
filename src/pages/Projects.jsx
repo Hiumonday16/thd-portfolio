@@ -9,6 +9,14 @@ export default function Projects() {
 
   const projects = [
     {
+      title: "Personal Portfolio Website",
+      tech: "React, React Router, Framer Motion, Tailwind CSS, JavaScript",
+      description:
+        "A modern, responsive portfolio website built with React that showcases my skills, projects, and professional background. The site features smooth scroll navigation, animated transitions using Framer Motion, and a sleek dark-themed UI designed with Tailwind CSS. It includes multiple sections: an interactive home page with hero content, an about section highlighting education and hobbies, a projects showcase, a skills section, and a contact form. The website demonstrates proficiency in modern frontend development practices, component-based architecture, and creating engaging user experiences with fluid animations and responsive design principles.",
+      github: "https://github.com/Hiumonday16/portfolio",
+      period: "2024 – Present",
+    },
+    {
       title: "Fragments Microservice – Cloud-Based Data Management API",
       tech: "Node.js, Express, AWS (DynamoDB, S3, ECS, Cognito), Docker, GitHub Actions",
       description:
