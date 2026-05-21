@@ -173,7 +173,7 @@ export default function Home() {
               whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(99, 102, 241, 0.4)" }}
               whileTap={{ scale: 0.95 }}
             >
-              Explore My Projects
+              Explore Now
             </motion.button>
             <motion.button
               onClick={() => {

@@ -2,9 +2,11 @@ import { useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import About from "./pages/About";
+import Experience from "./pages/Experience";
 import Projects from "./pages/Projects";
 import Skills from "./pages/Skills";
 import Contact from "./pages/Contact";
+import Footer from "./components/Footer";
 import "./App.css";
 
 function App() {
@@ -23,6 +25,9 @@ function App() {
         <section id="about" className="section">
           <About />
         </section>
+        <section id="experience" className="section">
+          <Experience />
+        </section>
         <section id="projects" className="section">
           <Projects />
         </section>
@@ -33,6 +38,7 @@ function App() {
           <Contact />
         </section>
       </main>
+      <Footer />
     </div>
   );
 }
