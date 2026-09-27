@@ -126,31 +126,30 @@ export default function Home() {
 
           <motion.div variants={itemVariants}>
             <p className="text-xl lg:text-2xl text-gray-300 mb-4 max-w-2xl leading-relaxed">
-              Motivated and detail-oriented{" "}
               <span className="text-white font-semibold">
-                Honours Bachelor of Technology – Software Development
+                Software Development
               </span>{" "}
-              student at Seneca College with a passion for{" "}
-              <span className="text-white font-semibold">web</span> and{" "}
-              <span className="text-white font-semibold">cloud programming</span>
+              student at Seneca Polytechnic with hands-on experience building{" "}
+              <span className="text-white font-semibold">web applications</span>,{" "}
+              <span className="text-white font-semibold">REST APIs</span>, and{" "}
+              <span className="text-white font-semibold">cloud-based systems</span>
               .
             </p>
             <p className="text-lg lg:text-xl text-gray-400 mb-8 max-w-2xl leading-relaxed">
-              Experienced in building full-stack applications through academic and
-              personal projects, with hands-on skills in frontend, backend, and API
-              integration. Seeking a{" "}
+              Experienced in developing, testing, and deploying software through
+              academic and personal projects, with additional experience in
+              AI-assisted systems and data processing. Seeking a{" "}
               <span className="text-gray-300 font-medium">
-                Software Developer Intern
+                Software Developer
               </span>{" "}
-              role to apply technical knowledge and grow in a collaborative
-              environment.
+              opportunity to apply and further develop my technical skills.
             </p>
             <div className="flex flex-wrap gap-3 mb-8">
               <span className="px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-sm text-gray-300 border border-white/20">
                 🎓 Class of 2027
               </span>
               <span className="px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-sm text-gray-300 border border-white/20">
-                🏫 Seneca College
+                🏫 Seneca Polytechnic
               </span>
               <span className="px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-sm text-gray-300 border border-white/20">
                 💻 Full-Stack Developer

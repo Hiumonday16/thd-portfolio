@@ -9,17 +9,17 @@ export default function Skills() {
   const skillCategories = [
     {
       category: "Languages",
-      skills: ["Python", "C", "C++", "JavaScript (ES6+)", "HTML", "CSS"],
+      skills: ["Python", "C", "C++", "JavaScript (ES6+)", "HTML", "CSS", "SQL"],
       color: "from-blue-500 to-cyan-500",
     },
     {
       category: "Frontend",
-      skills: ["React"],
+      skills: ["React", "Tailwind CSS"],
       color: "from-purple-500 to-pink-500",
     },
     {
       category: "Backend",
-      skills: ["Node.js", "Express.js"],
+      skills: ["Node.js", "Express.js", "REST APIs"],
       color: "from-green-500 to-emerald-500",
     },
     {
@@ -33,10 +33,34 @@ export default function Skills() {
         "Git/GitHub",
         "GitHub Actions",
         "AWS (DynamoDB, S3, ECS, ECR, Cognito)",
-        "Docker (basic)",
+        "Docker",
         "Docker Compose",
       ],
       color: "from-indigo-500 to-purple-500",
+    },
+    {
+      category: "AI & Data",
+      skills: [
+        "NumPy",
+        "Microsoft 365 Copilot",
+        "Data Cleaning",
+        "Data Validation",
+        "Document Processing",
+        "Basic Machine Learning Concepts",
+      ],
+      color: "from-teal-500 to-blue-500",
+    },
+    {
+      category: "Tools",
+      skills: [
+        "Microsoft 365",
+        "SharePoint",
+        "OneNote",
+        "Salesforce",
+        "Microsoft Teams",
+        "Excel",
+      ],
+      color: "from-yellow-500 to-orange-500",
     },
   ];
 

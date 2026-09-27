@@ -56,7 +56,7 @@ export default function Contact() {
     },
     {
       name: "Email",
-      url: "mailto:hieutrduong2020@gmail.com",
+      url: "mailto:hieutrdng2020@gmail.com",
       icon: (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -200,7 +200,7 @@ export default function Contact() {
                 Connect With Me
               </h3>
               <p className="text-gray-400 text-sm mb-6">
-                Open to internships and collaboration opportunities
+                Open to software developer roles and collaboration opportunities
               </p>
               <div className="space-y-4">
                 {socialLinks.map((link, index) => (
@@ -221,7 +221,7 @@ export default function Contact() {
                         {link.name}
                       </span>
                       {link.name === "Email" && (
-                        <span className="text-gray-500 text-xs">hieutrduong2020@gmail.com</span>
+                        <span className="text-gray-500 text-xs">hieutrdng2020@gmail.com</span>
                       )}
                       {link.name === "Phone" && (
                         <span className="text-gray-500 text-xs">+1 (437) 244-6344</span>
@@ -235,10 +235,13 @@ export default function Contact() {
                 <p className="text-gray-400 text-sm mb-3">Seeking:</p>
                 <div className="flex flex-wrap gap-2">
                   <span className="px-3 py-1 bg-gradient-to-r from-blue-600/20 to-purple-600/20 rounded-full text-xs text-gray-300 border border-blue-500/30">
-                    Software Developer Intern
+                    Software Developer
                   </span>
                   <span className="px-3 py-1 bg-gradient-to-r from-blue-600/20 to-purple-600/20 rounded-full text-xs text-gray-300 border border-blue-500/30">
                     Full-Stack Developer
+                  </span>
+                  <span className="px-3 py-1 bg-gradient-to-r from-blue-600/20 to-purple-600/20 rounded-full text-xs text-gray-300 border border-blue-500/30">
+                    Cloud / Backend Developer
                   </span>
                 </div>
               </div>

@@ -168,7 +168,7 @@ export default function About() {
               whileHover={{ scale: 1.05, y: -2 }}
             >
               <span className="text-gray-200 text-sm font-medium">
-                🎓 <span className="text-white font-semibold">Seneca College</span> • Honours B.Tech Software Development • Class of 2027
+                🎓 <span className="text-white font-semibold">Seneca Polytechnic</span> • Honours B.Tech Software Development • Expected Graduation Aug 2027
               </span>
             </motion.div>
             <motion.div
@@ -184,7 +184,7 @@ export default function About() {
               whileHover={{ scale: 1.05, y: -2 }}
             >
               <span className="text-gray-200 text-sm font-medium">
-                💼 <span className="text-white font-semibold">Core Skills:</span> Teamwork • Communication • Problem-Solving
+                💼 <span className="text-white font-semibold">Core Skills:</span> Problem-Solving • Teamwork • Communication • Technical Documentation
               </span>
             </motion.div>
           </motion.div>

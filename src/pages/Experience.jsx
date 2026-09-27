@@ -9,17 +9,32 @@ export default function Experience() {
   const experiences = [
     {
       type: "work",
-      role: "Information Technology Systems Technologist (Co-op)",
-      company: "Seneca Polytechnic ITS Student Service Desk",
+      role: "ITS Student Service Desk Representative (HyFlex Ambassador)",
+      company: "Seneca Polytechnic",
+      location: "Toronto, ON",
+      period: "September 2026 – October 2026",
+      icon: "🎥",
+      highlights: [
+        "Troubleshot classroom computers, AV systems, displays, microphones, cameras, and network-related issues",
+        "Supported faculty and staff with Microsoft Teams, Zoom, and classroom technology",
+        "Documented technical issues and escalated complex problems to appropriate IT teams",
+        "Performed system checks and retesting to ensure reliable technology operation",
+        "Applied problem-solving and communication skills to resolve technical issues in time-sensitive situations"
+      ]
+    },
+    {
+      type: "work",
+      role: "ITS Student Service Desk Representative (Co-Op)",
+      company: "Seneca Polytechnic",
       location: "Toronto, ON",
       period: "April 2026 – August 2026",
       icon: "💼",
       highlights: [
-        "Provided technical support to students through walk-ins, Omni Chat, and the Salesforce ticket system across multiple campuses",
-        "Assisted users with account access, password resets, software issues, printing services, and general troubleshooting",
-        "Supported Computing Commons operations and laptop loan services while following ITS procedures and service standards",
-        "Communicated technical information clearly to students with different levels of technical knowledge",
-        "Collaborated with team members and staff to resolve technical issues efficiently in a fast-paced support environment"
+        "Provided technical support through walk-ins, Omni Chat, and Salesforce, troubleshooting Microsoft 365, MFA, GlobalProtect VPN, printing, account access, and campus software across multiple campuses",
+        "Participated in the migration of the SSD Knowledge Base from OneNote to SharePoint, using Microsoft 365 Copilot to clean, standardize, and restructure technical documents for AI-assisted retrieval",
+        "Researched and compared AI retrieval performance on unstructured vs. standardized content, evaluating response efficiency, token usage, and answer quality to inform migration strategy",
+        "Performed quality checks on migrated and AI-generated content, identifying gaps and updating Knowledge Base articles to a standardized format",
+        "Supported Computing Commons operations and laptop loan services while maintaining documentation and collaborating with ITS team members to improve support processes"
       ]
     },
     {
@@ -34,6 +49,19 @@ export default function Experience() {
         "Assisted with printing, verifying, and affixing labels to food containers and delivery bags to ensure order accuracy",
         "Worked efficiently in a fast-paced team environment, following procedures and meeting time-sensitive deadlines",
         "Demonstrated attention to detail and reliability during high-volume service periods"
+      ]
+    },
+    {
+      type: "extracurricular",
+      role: "EquiGrid — Energy Burden Index",
+      company: "Seneca Hackathon Project",
+      location: "Seneca Polytechnic",
+      period: "May 2026",
+      icon: "⚡",
+      highlights: [
+        "Researched and verified public datasets with teammates (Statistics Canada, City of Toronto Open Data, Natural Resources Canada) so every score and map value came from real sources, not estimates invented for the demo",
+        "Combined income, rental rate, building age, and estimated consumption into one neighborhood scoring system that shows which areas need help first",
+        "Built the neighborhood detail panel and one-click briefing export (React) so utility planners can open the dashboard and get a clear, paste-ready answer without digging into the formulas"
       ]
     },
     {
